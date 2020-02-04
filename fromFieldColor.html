@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<title>from field color and border</title>
+<style type = "text/css">
+input[type="text"]{
+	background-color: #ffe4e1;
+}
+input[type="password"]{
+	background-color: #e6e6fa;
+}
+textarea{
+	background-color: #fafaff;
+}
+input[type="button"]{
+	border-color: red;
+	border-width: .25em;
+	border-style: outset;
+}
+</style>
+</head>
+<body>
+<h1>Form Sample</h1>
+<form action = "">
+<fieldset>
+<p><label>NAME:</label>
+<input type = "text" id="name"/></p>
+<p><label>PASSWORD:</label>
+<input type = "password" id = "pwd" /></p>
+<p><label>SKILLS:</label>
+<input type = "checkbox" id = "css" value = "css"/>CSS
+<input type = "checkbox" id = "js" value = "js"/>JavaScript
+<input type = "checkbox" id = "jQ" value = "jQ"/>jQuery
+<input type = "checkbox" id = "php" value = "php"/>PHP
+</p>
+<p><label>UPLOAD YOUR IMAGE:</label>
+<input type = "button" value="browse..."/>
+</p>
+<p><label>Gender:</label></br>
+<input type = "radio" id = "male" name = "gender" value = "0"  checked = "checked"/>MALE
+<input type = "radio" id = "female" name = "gender" value = "1"/>FEMALE
+</p>
+<p><label>SELECT COUNTRY:</label>
+<select id ="country">
+<option>Pakistan</option>
+<option>India</option>
+<option>Canada</option>
+<option>Australia</option>
+<option>US</option>
+</select></p>
+<p><label>COMMENT:</label>
+<textarea id= "text" rows="10" cols="40"></textarea></p>
+<p align = "center"><input type = "button" value="Send Us"/></p>
+</fieldset>
+</body>
+</html>
+

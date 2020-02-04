@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<title>create vendor</title></head>
+<style type ="text/CSS">
+h1{
+color: HSL(210,79%,29%);
+}
+h4{
+margin-left: 86px;
+}
+body{
+background: linear-gradient(#fffbff,#ffffff, #00bfff);
+}
+#right{
+float: right;
+width: 120.5px;
+}
+#button{
+background-color: HSL(132,58%,29%);
+height: 40px;
+}
+.up{
+vertical-align: top;
+}0
+#margin{
+clear: left;
+margin-left: .3em;
+width: 30%;
+}
+</style>
+<body>
+
+<h1><img src ="img.png" height = "20%" width = "10%"/>Create Vendor</h1>
+<h4>Use this Excel form layout to create vendor -XK01 in SAP.</h4>
+<fieldset>
+<legend>Header Data</legend>
+
+<p><label>Company Code</label>
+<Select id = "margin">
+<option>18903_gfd</option>
+<option>18903_gfd</option>
+<option>75864_hfg</option>
+</select>
+<Select id = "right">
+<option>1000_gfd</option>
+<option>0001_gfd</option>
+<option>2000_hfg</option>
+<option>3000_hfg</option>
+</select>
+<label id = "right">Pur. Organization</label></p>
+
+<p><label>Account Group</label>
+<input type ="text" value ="KRED" id = "margin"/></p>
+</fieldset>
+
+
+<fieldset>
+<legend>Vendor Details</legend>
+
+<p><label>Title Text</label>
+<Select id = "margin">
+<option>Mr.</option>
+<option>Miss</option>
+<option>Mrs.</option>
+</select>
+<input id = "right" type ="text" value ="701"/>
+<label id = "right">Street</label>
+</p>
+
+<p><label>First Name</label>
+<input type ="text" value ="John1" id = "margin"/>
+<Select id = "right">
+<option>DE</option>
+<option>CA</option>
+<option>IN</option>
+</select>
+<label id = "right">Country Key</label></p>
+
+
+
+<p><label>Last Name</label>
+<input type ="text" value ="Smith1" id = "margin"/>
+<Select id = "right">
+<option>01</option>
+<option>02</option>
+<option>03</option>
+</select>
+<label id = "right">Region</label>
+</p>
+
+<p><label>Search Term</label>
+<input type ="text" value ="JS1" id = "margin"/></p>
+</fieldset>
+
+
+<fieldset>
+<legend>Accounting Data</legend>
+
+<p><label>Account Number</label>
+<Select id = "margin">
+<option>00007354</option>
+<option>02739045</option>
+<option>03438956</option>
+</select>
+<Select id = "right">
+<option>A1</option>
+<option>B2</option>
+<option>X3</option>
+</select>
+<label id = "right">Planning Group</label>
+</p>
+
+<p><label>Currency</label>
+<Select id = "margin">
+<option>CAD-Canadian Dollar</option>
+<option>IND-Indian Rupees</option>
+<option>AUS-Australian Dollar</option>
+</select></p>
+
+<p><input type ="text" value ="5643"id = "right"/>
+<label id = "right">Bill of Exchange</label>
+</p></br>
+
+<p><label class = "up">Long Text Line</label>
+<textarea id ="txt" rows ="5" cols = "70"></textarea></p>
+</fieldset>
+
+<p><input type = "Button" value ="Create in SAP" id ="button" style = "float:right"/></p></br></br>
+
+<p><fieldset>
+<legend>SAP Result</legend>
+<p><label>Message</label>
+<input type ="text" value ="" id = "margin"/></p>
+
+<p><label class = "up">Message Text</label>
+<textarea id ="msg" rows ="5" cols = "70" ></textarea></p>
+</fieldset>
+
+</body>
+</html>
